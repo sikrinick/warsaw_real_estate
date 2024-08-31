@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "warsaw-real-estate"
+version = "0.1.0"
+description = ""
+authors = ["Mykyta Sikriier <sikrinick@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+matplotlib = "^3.9.0"
+scipy = "^1.13.1"
+numpy = "^1.26.4"
+scikit-learn = "^1.5.0"
+statsmodels = "^0.14.2"
+yfinance = "^0.2.42"
+seaborn = "^0.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
